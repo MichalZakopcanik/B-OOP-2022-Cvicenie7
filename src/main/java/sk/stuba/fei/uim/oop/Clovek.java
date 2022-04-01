@@ -1,7 +1,6 @@
 package sk.stuba.fei.uim.oop;
 
 import lombok.*;
-import sk.stuba.fei.uim.oop.Person;
 
 import java.util.List;
 
