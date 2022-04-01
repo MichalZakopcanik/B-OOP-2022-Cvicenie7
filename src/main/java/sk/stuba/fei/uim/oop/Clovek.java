@@ -1,18 +1,18 @@
-package sk.stuba.fei.uim.oop.utility;
+package sk.stuba.fei.uim.oop;
 
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 import sk.stuba.fei.uim.oop.Person;
 
 import java.util.List;
 
-@Getter
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class Clovek {
     private String meno;
-    @Setter
     private String adresa;
     private double vyska;
     private double vaha;
     private int vek;
-    private List<Person> kamarati;
+    private List<Clovek> kamarati;
 }
